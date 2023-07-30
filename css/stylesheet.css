@@ -1,0 +1,550 @@
+/* :root{
+    font-size: 10px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAV BAR*/
+.nav-list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    text-decoration: dashed;
+    color: #b91f1f;
+    display: inline;
+}
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+
+
+/*index*/
+    body{
+        background-image: url(../images/whitewall.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+
+    }
+
+    .titulo h1{
+
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+        font-weight: bolder;
+        margin-top: 15px;
+        text-decoration: dashed;
+        color: #b91f1f;
+        font-style: italic;
+        text-align: center;
+
+    }
+    .titulo p {
+        color: #b91f1f;
+        font-style: italic;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px;
+
+    }
+
+    .index{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+
+    .index > article{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        border: 2px solid #b91f1f;
+        position: relative;
+        background-color: bisque;
+        box-shadow: 5px 5px 5px 0px #191919;
+    }
+
+    .index > article img{
+        height: 250px;
+        max-width: 80%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        background-color: bisque;
+        border-radius: 40%;
+        border: solid #b91f1f;
+        margin-block: 20px;
+        margin-inline: auto;
+    }
+
+    .index > article h2{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    .index > article a{
+        text-decoration: none;
+        color: #191919;
+        border: 2px solid #191919;
+        align-self: center;
+        text-align: center;
+        padding: 10px;
+        margin: 2rem;
+        background-color: #59cee6;
+        box-shadow: 5px 5px 5px 0 #191919;
+    }
+    .inicio-item{
+        background-color: #eeee;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        border: 2px solid #b91f1f;
+        box-shadow: 5px 5px 5px 0px #191919;
+    }
+    .inicio-item h2, .inicio-item p{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .inicio-item a{
+        text-decoration: none;
+        background-color: bisque;
+        color: #191919;
+        border: 2px solid #191919;
+        padding: 5px;
+        align-self: flex-end;
+        width: 50px;
+        text-align: center;
+        margin: 10px;
+    }
+    .inicio-item div{
+        display: flex;
+    }
+
+    .inicio {
+        background-color: bisque;
+        padding: 20px;
+        display: flex; 
+        }
+    
+    .inicio div:nth-child(1) {
+        position: relative;
+        }
+    .img-fluid{
+        width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        border: 2px solid #b91f1f;
+    }
+    /* Card bs */
+    .card-ho{
+        background-color: bisque;
+        padding: 20px;
+    }
+    .col-md-4{
+        position: relative;
+    }
+    .col-md-4 > p{
+        position: absolute;
+        color: #ef2409;
+        border: solid 3px #b91f1f;
+        background-color: #191919;
+        opacity: 75%;
+        top: 0%;
+        left: 0%;
+    }
+    .btn{
+        background-color: #b91f1f;
+        border: 2px solid #191919;
+        color: #191919;
+    }
+    .boton:hover{
+        background-color: #191919;
+        color: #eeee;
+        border: 2px solid #b91f1f;
+        width: 20%;
+
+    }
+/*menu*/
+/* carusel */
+.carousel-inner img {
+    max-height: 300px;
+    object-fit: cover;
+    opacity: 90%;
+}
+.c1{
+    color: #59cee6;
+}
+.c2{
+    color: #06035dfe;
+}
+.c3{
+    color: #06f90ec7;
+}
+.menu-titulo h2{
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        color: #b91f1f;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+    .menu-titulo p {
+        margin-top: 5px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        text-decoration: dashed;
+        color: #b91f1f;
+    }
+
+.tarjeta-carne{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+}
+
+
+
+
+
+
+    .menu{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.menu.img img{
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+    z-index: 0;
+}
+.menu-img div{
+    position: relative;
+    bottom: 50px;
+    margin-left: 50px;
+    width: 40%;
+    display: inline-block;
+    z-index: 13;
+    text-align: inherit;
+
+}
+.menu-img h2, .menu-img p{
+    color: rgb(22, 21, 21);
+}
+
+.galery-img {
+    border-radius: 50px 50px 0 0;
+    margin-top: 10px;
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+
+}
+.galery-img{
+    color: #b91f1f;
+    border-style: solid;
+
+}
+.opc-veg h2{
+    font-size: 30px;
+    color: #b91f1f;
+    margin: 15px;
+    text-align: center;
+    font-style: bolder;
+}
+.opc-car{
+    font-size: 30px;
+    color: #b91f1f;
+    margin: 15px;
+    text-align: center;
+    font-style: bolder;
+}
+
+.carne {
+    padding: 30px;
+    text-align: center;
+}
+
+.carne-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.carne-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+}
+
+.carne-item h2 , .carne-item p {
+    padding: 15px;
+    text-align: left;
+}
+.menu-img button{
+    position: inherit;
+    top: 40px;
+}
+/*Contactos*/
+.contact-main{
+    color: #b91f1f;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+.contact-main a {
+    text-decoration: none;
+    color: #b91f1f;
+
+}
+.aboutus {
+    padding: 30px;
+    text-align: center;
+}
+
+.aboutus-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+}
+
+.aboutus-item h2 , .aboutus-item p {
+    padding: 15px;
+    text-align: left;
+}
+.contact-msj{
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    right: 60px;
+}
+.menu-img button{
+    position: inherit;
+    top: 40px;
+}
+#textarea{
+    width: 300px;
+    height: 300px;
+    resize: none;
+}
+.semanal{
+    background-color: bisque;
+}
+/*Blog*/
+.titulo-blog{
+    display: flex;
+    justify-content: center;
+    margin: 2.8rem;
+    font-size: 2.5rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+}
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.grid a {
+    text-decoration: none;
+}
+
+.grid:nth-child(odd) a{
+    color: #59cee6;
+}
+
+
+.grid:nth-child(even) a{
+    color: #191919;
+}
+
+.grid:nth-child(odd){
+    background-color: #191919;
+    gap: 20px;
+    border: solid 2px #59cee6;
+}
+
+
+.grid:nth-child(even){
+    background-color: #59ceee;
+    gap: 20px;
+    border: solid 2px #191919;
+}
+
+
+.grid:nth-child(odd) p{
+    color: #59cee6;
+}
+
+.grid:nth-child(odd):hover{
+    background-color: #eeee;
+}
+
+.grid:nth-child(odd):hover > img{
+    width: 60%;
+}
+
+.grid:nth-child(odd):hover > *{
+    color: #191919;
+}
+
+.menuimg{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+/*Recetario*/
+.titulo-recetario h1{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: #b91f1f;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.receta-item p {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: dashed;
+    color: #b91f1f;
+}
+.receta{
+display: inline-block;
+width: 100%;
+position: relative;
+}
+.receta-item img{
+position: absolute;
+top: 0;
+width: 250px;
+height: 200px;
+object-fit: cover;
+display: inline-block;
+z-index: 0;
+}
+.receta-item div{
+    position: relative;
+    bottom: 10px;
+    left: 270px;
+    margin-left: 50px;
+    width: 40%;
+    display: inline-block;
+    z-index: 13;
+    text-align: center;
+    
+    }
+.receta-item h2{
+color:#b91f1f;
+text-align: left;
+margin-top: 20px;
+
+}
+.receta-item p{
+    size: 10px;
+    text-align: left;
+    color: #b91f1f;
+    
+}
+.receta-item li{
+    text-decoration: none;
+    color: #b91f1f;
+    list-style: none;
+    text-align: left;
+}
+.linea{
+        border-top: 1px solid black;
+        height: 2px;
+        padding: 0;
+        margin: 40px auto 0 auto;
+}
+/*FOOTER*/
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 8px;
+    text-decoration: dotted;
+    color: #b91f1f;
+    background-color: #1e1b1b;
+    margin-top: 40px;
+}
+.navbar-footer{
+    text-decoration: none;
+    color: #b91f1f;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 940px) {
+    .grid-container, .index{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 10px) and (max-width:600px) {
+    .grid-container, .index{
+        display: flex;
+        flex-direction: column;
+    }
+    .index article {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    .titulo h1{
+        font-size: 1.5rem;
+
+    }
+    .titulo p{
+        font-size: 1rem;
+    }
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+@media screen and (max-width:400px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

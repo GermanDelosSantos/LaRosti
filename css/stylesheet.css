@@ -211,99 +211,54 @@ nav ul li {
         text-decoration: dashed;
         color: #b91f1f;
     }
-
-.tarjeta-carne{
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-}
-
-
-
-
-
-
-    .menu{
-    display: inline-block;
-    width: 100%;
-    position: relative;
-}
-.menu.img img{
-    position: absolute;
-    top: 0;
-    width: 40%;
-    height: 100%;
-    object-fit: cover;
-    display: inline-block;
-    z-index: 0;
-}
-.menu-img div{
-    position: relative;
-    bottom: 50px;
-    margin-left: 50px;
-    width: 40%;
-    display: inline-block;
-    z-index: 13;
-    text-align: inherit;
-
-}
-.menu-img h2, .menu-img p{
-    color: rgb(22, 21, 21);
-}
-
-.galery-img {
-    border-radius: 50px 50px 0 0;
-    margin-top: 10px;
-    height: 150px;
-    width: 250px;
-    object-fit: cover;
-
-}
-.galery-img{
-    color: #b91f1f;
-    border-style: solid;
-
-}
-.opc-veg h2{
-    font-size: 30px;
-    color: #b91f1f;
-    margin: 15px;
-    text-align: center;
-    font-style: bolder;
-}
-.opc-car{
-    font-size: 30px;
-    color: #b91f1f;
-    margin: 15px;
-    text-align: center;
-    font-style: bolder;
-}
-
-.carne {
-    padding: 30px;
-    text-align: center;
-}
-
-.carne-item img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 50% 50% 50% 50%;
-}
-
-.carne-item {
-    display: inline-block;
-    width: 30%;
-    margin: 15px;
-}
-
-.carne-item h2 , .carne-item p {
-    padding: 15px;
-    text-align: left;
-}
-.menu-img button{
-    position: inherit;
-    top: 40px;
-}
+    .opc-carne{
+        text-align: center;
+    }
+    .menu-carne{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .menu-carne > article{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        border: 2px solid #191919;
+        position: relative;
+        background-color: #cb76be;
+        box-shadow: 5px 5px 5px 0px #191919;
+    }
+        .menu-carne > article img{
+            height: 200px;
+            max-width: 80%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            background-color: bisque;
+            border: solid #191919;
+            border-radius: 30px 0 30px 0;
+            margin-block: 20px;
+            margin-inline: auto;
+        }
+    
+        .menu-carne > article h2{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            color: #191919;
+        }
+        .menu-carne > article a{
+            text-decoration: none;
+            color: #cb76be;
+            border: 2px solid #cb76be;
+            align-self: center;
+            text-align: center;
+            padding: 10px;
+            margin: 2rem;
+            background-color: #191919;
+            box-shadow: 5px 5px 5px 0 #191919;
+        }
 /*Contactos*/
 .contact-main{
     color: #b91f1f;
@@ -503,19 +458,19 @@ margin-top: 20px;
     margin-top: 10px;
 }
 
-@media screen and (min-width: 601px) and (max-width: 940px) {
-    .grid-container, .index{
+@media screen and (min-width: 602px) and (max-width: 940px) {
+    .index, .menu-carne{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
 @media screen and (min-width: 10px) and (max-width:600px) {
-    .grid-container, .index{
+    .index, .menu-carne{
         display: flex;
         flex-direction: column;
     }
-    .index article {
+    .index article, .menu-carne article {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -533,11 +488,27 @@ margin-top: 20px;
         display: flex;
         flex-direction: column;
     }
-@media screen and (max-width:400px) {
+
+    @media screen and (min-width: 602px) and (max-width: 950px) {
     .grid-container{
         display: flex;
         flex-direction: column;
     }
+   /* .grid > img{
+        width: 300px;
+        height: 200px;
+    }*/
+
+    }
+@media screen and (min-width:10px) and (max-width:601px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    /*.grid > img{
+        width: 200px;
+        height: 200px;
+    }*/
     .nav-list {
         display: flex;
         flex-direction: column;

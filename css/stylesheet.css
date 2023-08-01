@@ -204,9 +204,30 @@ nav ul li {
         text-decoration: dashed;
         color: #b91f1f;
     }
-    .opc-carne{
-        text-align: center;
+    .opc-car{
+        transition: 0.2s;
     }
+
+    .opc-car:hover h2{
+        letter-spacing: 10px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+    }
+
+
+    .menu-img:hover{
+        transform: scale(1.10);
+    }
+
+
+    .menu-carne a:hover{
+        background-color: #191919;
+        border-radius: 20%;
+        border:2px solid #04798e;
+        width: 40%;
+        box-shadow: none;
+    }
+
     .menu-carne{
         padding: 20px;
         display: flex;
@@ -237,11 +258,17 @@ nav ul li {
     
         .menu-carne > article h2{
             padding: 20px;
-            display: flex;
-            justify-content: center;
             margin: 20px;
-            color: #191919;
+            height: 15%;
+            text-align: center;
+    
         }
+        .menu-carne  p{
+            text-align: center;
+            height: 20%;
+        }
+
+
         .menu-carne > article a{
             text-decoration: none;
             color: #cb76be;

@@ -419,7 +419,6 @@ nav ul li {
     
 }
 .receta-item p {
-    margin-top: 5px;
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -427,7 +426,8 @@ nav ul li {
     color: #b91f1f;
 }
 .receta{
-display: inline-block;
+display: flex;
+flex-direction: column;
 width: 100%;
 position: relative;
 }
@@ -440,9 +440,14 @@ object-fit: cover;
 display: inline-block;
 z-index: 0;
 }
+
+.receta-item li{
+    display: list-item;
+    border: 1px solid #191919;
+}
+
 .receta-item div{
     position: relative;
-    bottom: 10px;
     left: 270px;
     margin-left: 50px;
     width: 40%;

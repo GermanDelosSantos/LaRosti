@@ -281,6 +281,11 @@ nav ul li {
             box-shadow: 5px 5px 5px 0 #191919;
         }
 /*Contactos*/
+.contact-title{
+    margin: 1.6rem;
+}
+
+
 .contacto-body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -293,13 +298,14 @@ nav ul li {
     margin: 1rem;
     padding: 1rem;
 }
-.contact-form{
-    background-color: #353232ee;
+.contact-list a {
+    text-decoration: none;
+    color: #191919;
 }
 
-
-textarea{
+textarea {
     resize: none;
+    background-color: #353232ee;
 }
 
 .semanal{

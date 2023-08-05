@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/stylesheet.css">
     <link rel="shortcut icon" href="../images/rosti.jpg" type="image/x-icon">
-    <title>Contactos</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Contacto</title>
 
 </head>
 <body>
@@ -23,68 +28,76 @@
 
     
     <main>
-        <section class="contact-main">
-            <article>
-                <h1>Acerca de nosotros</h1>
+        <section id="contact">
+            <h1 class="section-header">Nosotros</h1>
+            
+            <div class="contact-wrapper d-flex col-sm-12">
 
-            </article>
-            <div>
-                <ul>
-                    <li><a href="https://www.instagram.com/"><img src="../images/ig.png"></a></li>
-                    <li><a href="https://www.pedidosya.com.uy/restaurantes/montevideo/la-rotiseria-menu?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action"><img src="../images/wpp.png"></a></li>
-                    <li><a href="https://www.google.com.uy/maps/place/La+Rotiser%C3%ADa/@-34.9126323,-56.1828282,17.87z/data=!4m14!1m7!3m6!1s0x959f7fb8f739af57:0x341d9c855c355afc!2zUsO2c3RpIENhZsOp!8m2!3d-34.9132132!4d-56.1558325!16s%2Fg%2F11h5278yq_!3m5!1s0x959f818590ed2235:0x65f9720308e81356!8m2!3d-34.9127159!4d-56.1814403!16s%2Fg%2F11h6h188ls?hl=es-419&entry=ttu"><img src="../images/maps.png"> </a></li>
-                </ul>
 
-            </div>
-        </section>
-        <form action="" method="GET" enctype="multipart/form-data">
-            <section class="aboutus">
-                <article class="aboutus-item">
-                    <h2>Nosotros</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus doloremque, itaque enim error ratione dolor in, magnam qui velit iusto quasi? Sapiente similique quo laborum doloremque est veritatis incidunt alias, aspernatur dolores nihil quidem saepe exercitationem doloribus omnis, cumque necessitatibus esse velit! Voluptas sit tempora eum distinctio explicabo! Alias, similique!</p>
-                        </div>
-                </article>
-        </section>
-        <section class="contact-msj">
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" placeholder="Ingrese su nombre" name="nombre">
-            </div>
 
-            <div>
-                <label for="email">Email</label>
-                <input type="email" placeholder="Ingrese su email" name="email">
-            </div>
-            <div>
-                <label for="platos">Elegi tu plato</label>
-                <select name="Platos" id="">
-                    <option value="Veg1">Veg1</option>
-                    <option value="veg2">Veg2</option>
-                    <option value="veg3">Veg3</option>
-                    <option value="Car1">Car1</option>
-                    <option value="Car2">Car2</option>
-                    <option value="Car3">Car3</option>
-                </select>
-            </div>
-            <div>
-                <label for=""></label>
-                <textarea name="" id="textarea" cols="30" rows="10" placeholder="Deje su mensaje"></textarea>
-            <div>
-                <button type="submit">Enviar</button>
+
+
+                <div class="form-group">
+                    <div class="col-sm-12">
+                    <input type="text" class="form-control" id="name" placeholder="Nombre" name="name" value="" required>
+                    </div>
+                </div>
+            
+                <div class="form-group">
+                    <div class="col-sm-12">
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required>
+                    </div>
+                </div>
+            
+                <textarea class="form-control" rows="10" placeholder="MESSAGE" name="Mensaje" required></textarea>
+            </form>
+            <button type="button" class="btn btn-primary btn-lg" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">Enviar</span>
+                </div>
+            
+            </button>
+                
+            
+                </form>
+                
+                <div class="direct-contact-container">
+            
+                    <ul class="contact-list">
+                    <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Montevideo</span></i></li>
+                    
+                    <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(+598) 97-691-157</a></span></i></li>
+                    
+                    <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">larosticeria@gmail.com</a></span></i></li>
+                    
+                    </ul>
+            
+                    <hr>
+                    <ul class="social-media-list">
+                    </li>
+                    <li><a href="#" target="_blank" class="contact-icon">
+                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="contact-icon"></a>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </li>
+                    </ul>
+                    <hr>
+            
+            
+                </div>
+                
             </div>
             
-            </div>
-    </section>
-            
-        </form>
-
-        </div>
+            </section>
 
 
 
 
 
-    </main>
+
+
 
     <footer id="footer">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quibusdam porro, vel dolores voluptates pariatur deserunt placeat maxime possimus ducimus veritatis eveniet quo necessitatibus vero! Labore suscipit ut totam veniam eveniet voluptas laboriosam, est non consequatur dolores officiis blanditiis nisi architecto amet quas, neque illo perspiciatis beatae exercitationem quod at, iure dignissimos explicabo! Consequatur, quo sit? Quaerat sapiente neque nihil voluptatem, et similique perferendis asperiores illo at numquam beatae libero vero itaque cum laborum sint sed nulla expedita ipsa porro iusto possimus ratione id. Minima autem error sed, corrupti cum aliquam nihil veritatis aut minus, aspernatur fugiat ut commodi recusandae.
@@ -102,6 +115,8 @@
     </footer>
     
 
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script><script  src="./script.js"></script>
 
 
 </body>

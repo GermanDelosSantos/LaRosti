@@ -281,51 +281,178 @@ nav ul li {
             box-shadow: 5px 5px 5px 0 #191919;
         }
 /*Contactos*/
-.contact-main{
-    color: #b91f1f;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
+#contact {
+    width: 100%;
+    height: 100%;
 }
-.contact-main a {
-    text-decoration: none;
-    color: #b91f1f;
 
-}
-.aboutus {
-    padding: 30px;
+.section-header {
     text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #191919;
+    text-transform: uppercase;
+    letter-spacing: 6px;
 }
 
-.aboutus-item {
-    display: inline-block;
-    width: 30%;
-    margin: 15px;
-}
-
-.aboutus-item h2 , .aboutus-item p {
-    padding: 15px;
-    text-align: left;
-}
-.contact-msj{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 40px;
+.contact-wrapper {
+    /* display: flex; */
+    margin: 0 auto;
+    padding: 20px;
     position: relative;
-    right: 60px;
-    border: 5px solid #191919;
-    width: 50%;
+    max-width: 840px;
 }
-.menu-img button{
-    position: inherit;
-    top: 40px;
+
+/*cosas a la izq*/
+.form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
 }
-#textarea{
-    width: 300px;
-    height: 300px;
+
+.form-control, 
+textarea {
+    max-width: 400px;
+    background-color: #4b4747ce;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+  /* cosas a la derecha */
+.direct-contact-container {
+    max-width: 400px;
+}
+
+  /* locacion numero redes */
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: #191919;
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #191919;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.contact-text a {
+    color: #191919;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+    color: #191919;
+    text-decoration: none;
+}
+textarea{
     resize: none;
+}
+
+
+  /*Iconos */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #59cee6;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+    color: #000;
+}
+
+hr {
+    border-color: rgba(255,255,255,.6);
 }
 .semanal{
     background-color: bisque;
@@ -556,5 +683,4 @@ margin-top: 20px;
         display: flex;
         flex-direction: column;
     }
-
 }

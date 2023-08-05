@@ -523,6 +523,19 @@ hr {
     color: #191919;
 }
 
+.grid:nth-child(even):hover{
+    background-color: #eeee;
+    transition: all 0.2s ease-in-out;
+}
+
+.grid:nth-child(even):hover > img{
+    width: 40%;
+    transition-duration: 0.5s;
+}
+.grid:nth-child(even):hover > *{
+    color: #191919;
+}
+
 .blog-img{
     width: 30%;
     aspect-ratio: 3/2;

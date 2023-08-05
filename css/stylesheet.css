@@ -290,6 +290,16 @@ nav ul li {
     list-style: none;
     text-align: left;
     gap: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.contact-form{
+    background-color: #353232ee;
+}
+
+
+textarea{
+    resize: none;
 }
 
 .semanal{

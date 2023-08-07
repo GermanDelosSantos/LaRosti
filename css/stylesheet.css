@@ -292,7 +292,7 @@ nav  ul  li {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
-.contact-icons ul,  li{
+.contact-icons ul > li{
     list-style: none;
     text-align: left;
     gap: 3rem;
@@ -495,21 +495,23 @@ margin-top: 20px;
         margin: 40px auto 0 auto;
 }
 /*FOOTER*/
-
-.navbar-footer{  
+#footer{
+    height: 8rem;
+}
+.navbar-footer>li{  
     text-decoration: none;
     color: #cb76be;
     border-radius: 30px;
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 9px !important;
+    /* padding: 5px; */
+    /* margin-top: 10px; */
+    font-size: 9px;
 }
-.navbar-footer:hover{
+.navbar-footer a:hover {
     background-color: #59cee6;
     color: #191919;
     border: 1px solid #cb76be;
     border-radius: 30px;
-    padding: 5px;
+    /* padding: 5px; */
     
 }
 
@@ -556,9 +558,12 @@ margin-top: 20px;
         flex-direction: column;
         text-align: center;
     }
-    footer{
+}
+@media screen and (max-width:323px){
+    #footer> ul{
         display: flex;
         flex-direction: column;
-        text-align: center;
-        }
+        text-align: center !important;
+    }
+
 }

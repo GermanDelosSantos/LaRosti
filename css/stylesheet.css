@@ -17,10 +17,10 @@
     text-decoration: none;
     padding: 5px;
 }
-nav ul {
+nav  ul {
     text-align: center;
 }
-nav ul li {
+nav  ul  li {
     display: inline;
     padding: 15px;
 }
@@ -292,12 +292,13 @@ nav ul li {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
-.contact-icons  ul, li{
+.contact-icons ul,  li{
     list-style: none;
     text-align: left;
     gap: 3rem;
     margin: 1rem;
     padding: 1rem;
+    text-decoration: none;
 }
 .contact-list a {
     text-decoration: none;
@@ -305,7 +306,7 @@ nav ul li {
 }
 
 textarea {
-    resize: none;
+    resize: none !important;
     background-color: #353232ee;
 }
 
@@ -476,15 +477,7 @@ margin-top: 20px;
         margin: 40px auto 0 auto;
 }
 /*FOOTER*/
-#footer{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 8px;
-    text-decoration: dotted;
-    color: #cb76be;
-    background-color: #151515;
-    margin-top: 40px;
-}
+
 .navbar-footer{  
     text-decoration: none;
     color: #cb76be;
@@ -498,6 +491,7 @@ margin-top: 20px;
     border: 1px solid #cb76be;
     border-radius: 30px;
     padding: 5px;
+    
 }
 
 @media screen and (min-width: 602px) and (max-width: 940px) {
@@ -525,11 +519,6 @@ margin-top: 20px;
     .titulo p{
         font-size: 1rem;
     }
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
     }
 
     @media screen and (min-width: 602px) and (max-width: 950px) {

@@ -497,6 +497,8 @@ margin-top: 20px;
 /*FOOTER*/
 #footer{
     height: 8rem;
+    background-color: #2c2b2be2;
+    color: #59ceee;
 }
 .navbar-footer>li{  
     text-decoration: none;
@@ -514,6 +516,7 @@ margin-top: 20px;
     /* padding: 5px; */
     
 }
+
 
 @media screen and (min-width: 602px) and (max-width: 940px) {
     .index, .menu-carne{

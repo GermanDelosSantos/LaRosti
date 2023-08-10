@@ -367,7 +367,17 @@ body {
   gap: 1rem;
 }
 
-.contact-icons .contac-icons > ul a {
+.contact-icons ul {
+  list-style: none;
+}
+.contact-icons ul li {
+  text-align: left;
+  gap: 3rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.contac-icons ul a {
   text-decoration: none;
   color: #191919;
 }

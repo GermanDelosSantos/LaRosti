@@ -1,0 +1,55 @@
+.contact-title {
+	margin: 1.6rem;
+}
+.contacto-body {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+.contact-icons {
+	ul {
+		>li {
+			list-style: none;
+			text-align: left;
+			gap: 3rem;
+			margin: 1rem;
+			padding: 1rem;
+		}
+	}
+}
+.contac-icons {
+	>ul {
+		a {
+			text-decoration: none;
+			color: $color_3;
+		}
+	}
+}
+.send-button {
+	margin-top: 15px;
+	height: 34px;
+	width: 400px;
+	overflow: hidden;
+	transition: all .2s ease-in-out;
+}
+.alt-send-button {
+	width: 400px;
+	height: 34px;
+	transition: all .2s ease-in-out;
+	&:hover {
+		transform: translate3d(0px, -29px, 0px);
+	}
+}
+.send-text {
+	display: block;
+	margin-top: 10px;
+	font: 700 12px 'Lato', sans-serif;
+	letter-spacing: 2px;
+}
+textarea {
+	resize: none !important;
+	background-color: $background-color_7;
+}
+.semanal {
+	background-color: $background-color_3;
+}

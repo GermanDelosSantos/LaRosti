@@ -1,0 +1,55 @@
+.receta-item {
+	p {
+		font-size: 15px;
+		font-family: $font-family_2;
+		text-align: center;
+		text-decoration: dashed;
+		color: $color_1;
+		size: 10px;
+		text-align: left;
+		color: $color_1;
+	}
+	img {
+		position: absolute;
+		top: 0;
+		width: 250px;
+		height: 200px;
+		object-fit: cover;
+		display: inline-block;
+		z-index: 0;
+	}
+	li {
+		display: list-item;
+		border: 1px solid #191919;
+		text-decoration: none;
+		color: $color_1;
+		list-style: none;
+		text-align: left;
+	}
+	div {
+		position: relative;
+		left: 270px;
+		margin-left: 50px;
+		width: 40%;
+		display: inline-block;
+		z-index: 13;
+		text-align: center;
+	}
+	h2 {
+		color: $color_1;
+		text-align: left;
+		margin-top: 20px;
+	}
+}
+.receta {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+}
+.linea {
+	border-top: 1px solid black;
+	height: 2px;
+	padding: 0;
+	margin: 40px auto 0 auto;
+}

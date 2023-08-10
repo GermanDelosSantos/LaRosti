@@ -1,0 +1,21 @@
+#footer {
+	height: 8rem;
+	background-color: $background-color_9;
+	color: $color_9;
+}
+.navbar-footer {
+	>li {
+		text-decoration: none;
+		color: $color_8;
+		border-radius: 30px;
+		font-size: 9px;
+	}
+	a {
+		&:hover {
+			background-color: $background-color_4;
+			color: $color_3;
+			border: 1px solid #cb76be;
+			border-radius: 30px;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+
+.nav-list {
+	font-family: $font-family_1;
+	font-weight: bolder;
+	font-size: 10px;
+	color: $color_1;
+	display: inline;
+	text-decoration: none;
+	padding: 5px;
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_2;
+		border: 1px solid #0f0e0e;
+		border-radius: 30px;
+		padding: 5px;
+	}
+}
+nav {
+	ul {
+		text-align: center;
+		li {
+			display: inline;
+			padding: 15px;
+		}
+	}
+}
+.nav-logo {
+	width: 30px;
+	height: 24px;
+	text-decoration: none;
+	background-color: $background-color_1;
+	margin: 0.5rem;
+	&:hover {
+		width: 5%;
+		height: 5%;
+	}
+}

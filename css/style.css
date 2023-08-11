@@ -62,7 +62,6 @@ nav ul li {
 }
 
 body {
-  background-image: url(../images/whitewall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -365,14 +364,17 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  background-image: linear-gradient(#191919 #eee);
 }
 
 .contact-icons ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .contact-icons ul li {
   text-align: left;
-  gap: 3rem;
   margin: 2rem;
   padding: 1rem;
 }

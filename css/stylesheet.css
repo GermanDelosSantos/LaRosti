@@ -294,6 +294,7 @@ nav  ul  li {
 }
 .contact-icons ul > li{
     text-align: left;
+    gap: 3rem;
     margin: 1rem;
     padding: 1rem;
 }

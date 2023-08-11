@@ -292,13 +292,16 @@ nav  ul  li {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
-/*.contact-icons ul > li{
+.contact-icons ul > li{
     list-style: none;
     text-align: left;
     gap: 3rem;
     margin: 1rem;
     padding: 1rem;
-}*/
+}
+.contac-icons> ul{
+    list-style: none;
+}
 .contac-icons> ul a {
     text-decoration: none;
     color: #191919;

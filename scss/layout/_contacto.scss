@@ -9,10 +9,12 @@
 .contact-icons {
 	ul{
 		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
 		li{
 			
 					text-align: left;
-					gap: 3rem;
 					margin: 2rem;
 					padding: 1rem;
 				}

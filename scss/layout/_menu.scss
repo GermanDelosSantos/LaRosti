@@ -34,7 +34,7 @@
 	}
 }
 .opc-car {
-	transition: 0.2s;
+	transition: 1s;
 	&:hover {
 		h2 {
 			letter-spacing: 10px;
@@ -44,12 +44,14 @@
 	}
 }
 .menu-img {
+	transition: 1s;
 	&:hover {
 		transform: scale(1.10);
 	}
 }
 .menu-carne {
 	a {
+		transition: 0.3s;
 		&:hover {
 			background-color: $background-color_2;
 			border-radius: 20%;

@@ -103,6 +103,7 @@
 	color: $color_3;
 }
 .boton {
+	transition: all 0.8s ease-in-out;
 	&:hover {
 		background-color: $background-color_2;
 		color: $color_2;

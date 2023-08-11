@@ -7,6 +7,7 @@
 	display: inline;
 	text-decoration: none;
 	padding: 5px;
+	transition: 1s;
 	&:hover {
 		background-color: $background-color_2;
 		color: $color_2;
@@ -30,8 +31,9 @@ nav {
 	text-decoration: none;
 	background-color: $background-color_1;
 	margin: 0.5rem;
+	transition: all 1s ease-in-out;
 	&:hover {
-		width: 5%;
-		height: 5%;
+		scale: 1;
+		transition: all 1s ease-in-out;
 	}
 }

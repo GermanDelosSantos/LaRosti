@@ -13,6 +13,7 @@
   display: inline;
   text-decoration: none;
   padding: 5px;
+  transition: 1s;
 }
 .nav-list:hover {
   background-color: #191919;
@@ -36,10 +37,11 @@ nav ul li {
   text-decoration: none;
   background-color: rgba(238, 238, 238, 0.9333333333);
   margin: 0.5rem;
+  transition: all 1s ease-in-out;
 }
 .nav-logo:hover {
-  width: 5%;
-  height: 5%;
+  scale: 1;
+  transition: all 1s ease-in-out;
 }
 
 #footer {
@@ -62,6 +64,7 @@ nav ul li {
 }
 
 body {
+  background-image: url(../images/whitewall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -174,6 +177,9 @@ body {
   color: #191919;
 }
 
+.boton {
+  transition: all 0.8s ease-in-out;
+}
 .boton:hover {
   background-color: #191919;
   color: rgba(238, 238, 238, 0.9333333333);
@@ -218,7 +224,7 @@ body {
 }
 
 .opc-car {
-  transition: 0.2s;
+  transition: 1s;
 }
 .opc-car:hover h2 {
   letter-spacing: 10px;
@@ -226,6 +232,9 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
+.menu-img {
+  transition: 1s;
+}
 .menu-img:hover {
   transform: scale(1.1);
 }
@@ -235,6 +244,9 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+.menu-carne a {
+  transition: 0.3s;
 }
 .menu-carne a:hover {
   background-color: #191919;

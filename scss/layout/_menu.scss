@@ -34,12 +34,12 @@
 	}
 }
 .opc-car {
-	transition: 1s;
+	transition: all 0.5s ease-in-out;
 	&:hover {
-		h2 {
+		h2 {  
+			transition: all 0.5s ease-in-out;
 			letter-spacing: 10px;
 			cursor: pointer;
-			transition: all 0.2s ease-in-out;
 		}
 	}
 }
@@ -51,12 +51,13 @@
 }
 .menu-carne {
 	a {
-		transition: 0.3s;
+		transition: all 0.5s ease-in-out;
 		&:hover {
+			transition: all 0.5s ease-in-out;
 			background-color: $background-color_2;
-			border-radius: 20%;
+			border-radius: 10%;
 			border: 2px solid #04798e;
-			width: 40%;
+			width: 30%;
 			box-shadow: none;
 		}
 	}

@@ -36,16 +36,17 @@ nav ul li {
   height: 24px;
   text-decoration: none;
   background-color: rgba(238, 238, 238, 0.9333333333);
+  border-radius: 50%;
   margin: 0.5rem;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .nav-logo:hover {
-  scale: 1;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  width: 40px;
+  height: 34px;
 }
 
 #footer {
-  height: 8rem;
   background-color: rgba(44, 43, 43, 0.8862745098);
   color: #59ceee;
 }
@@ -56,7 +57,12 @@ nav ul li {
   border-radius: 30px;
   font-size: 9px;
 }
+.navbar-footer a {
+  transition: all 0.5s ease-in-out;
+  color: #59cee6;
+}
 .navbar-footer a:hover {
+  transition: all 0.5s ease-in-out;
   background-color: #59cee6;
   color: #191919;
   border: 1px solid #cb76be;
@@ -224,12 +230,12 @@ body {
 }
 
 .opc-car {
-  transition: 1s;
+  transition: all 0.5s ease-in-out;
 }
 .opc-car:hover h2 {
+  transition: all 0.5s ease-in-out;
   letter-spacing: 10px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
 }
 
 .menu-img {
@@ -246,13 +252,14 @@ body {
   gap: 30px;
 }
 .menu-carne a {
-  transition: 0.3s;
+  transition: all 0.5s ease-in-out;
 }
 .menu-carne a:hover {
+  transition: all 0.5s ease-in-out;
   background-color: #191919;
-  border-radius: 20%;
+  border-radius: 10%;
   border: 2px solid #04798e;
-  width: 40%;
+  width: 30%;
   box-shadow: none;
 }
 .menu-carne > article {
@@ -372,23 +379,25 @@ body {
   margin: 1.6rem;
 }
 
+/**.contacto-body {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+	background-image: linear-gradient(#191919 #eee) ;
+}**/
 .contacto-body {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  background-image: linear-gradient(#191919 #eee);
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.contact-icons ul {
-  list-style: none;
+.contac-icons ul {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
+  list-style: none;
 }
-.contact-icons ul li {
+.contac-icons ul li {
   text-align: left;
-  margin: 2rem;
-  padding: 1rem;
 }
 
 .contac-icons ul a {
@@ -455,20 +464,72 @@ textarea {
 
 .prepa {
   text-align: center;
-  color: rgba(238, 238, 238, 0.9333333333);
-  background-image: linear-gradient(45deg, rgba(56, 97, 233, 0.831372549), rgba(43, 31, 31, 0.7647058824));
+  color: #191919;
 }
 .prepa h3 {
   font-size: 1.5rem;
   font-family: Geneva;
-  color: rgba(238, 238, 238, 0.9333333333);
+  color: #191919;
   font-weight: bold;
   font-style: italic;
 }
 .prepa p {
   font-size: 1rem;
   font-family: sans-serif;
-  color: rgba(238, 238, 238, 0.9333333333);
+  color: #191919;
+}
+
+@media screen and (min-width: 602px) and (max-width: 940px) {
+  .index, .menu-carne {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 600px) {
+  .index, .menu-carne {
+    display: flex;
+    flex-direction: column;
+  }
+  .index article, .menu-carne article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .titulo h1 {
+    font-size: 1.5rem;
+  }
+  .titulo p {
+    font-size: 1rem;
+  }
+}
+#footer {
+  background-color: rgba(44, 43, 43, 0.8862745098);
+  width: 100%;
+}
+
+@media screen and (min-width: 602px) and (max-width: 950px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 601px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 323px) {
+  #footer > ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

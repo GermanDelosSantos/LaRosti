@@ -1,0 +1,58 @@
+@media screen and (min-width: 602px) and (max-width: 940px) {
+    .index, .menu-carne{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .index, .menu-carne{
+        display: flex;
+        flex-direction: column;
+    }
+    .index article, .menu-carne article {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    .titulo h1{
+        font-size: 1.5rem;
+
+    }
+    .titulo p{
+        font-size: 1rem;
+    }
+    }
+    #footer{
+        background-color: $background-color_9;
+        width: 100%;
+    }
+    
+    
+    
+    @media screen and (min-width: 602px) and (max-width: 950px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+@media screen and (max-width:601px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (max-width:323px){
+    #footer> ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center !important;
+    }
+
+}

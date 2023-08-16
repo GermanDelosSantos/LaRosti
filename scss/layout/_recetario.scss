@@ -17,14 +17,13 @@
 }
 .prepa{
 	text-align: center;
-	color: $color_2;
-	background-image: linear-gradient(45deg,#3861e9d4,#2b1f1fc3);
+	color: $color_3;
 	h3{
-		@include font (1.5rem,Geneva,$color_2);
+		@include font (1.5rem,Geneva,$color_3);
 		font-weight: bold;
 		font-style: italic;
 	}
 	p{
-		@include font (1rem,sans-serif,$color_2);
+		@include font (1rem,sans-serif,$color_3);
 	}
 }

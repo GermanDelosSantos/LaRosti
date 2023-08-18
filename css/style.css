@@ -531,5 +531,11 @@ textarea {
     text-align: center !important;
   }
 }
+@media screen and (max-dith: 600px) {
+  .contaco-icons {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -464,6 +464,7 @@ textarea {
 
 .carousel-inner img {
   max-height: 300px;
+  width: 100%;
   object-fit: cover;
   opacity: 90%;
 }

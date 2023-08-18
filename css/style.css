@@ -462,6 +462,12 @@ textarea {
   list-style: none;
 }
 
+.carousel-inner img {
+  max-height: 300px;
+  object-fit: cover;
+  opacity: 90%;
+}
+
 .prepa {
   text-align: center;
   color: #191919;

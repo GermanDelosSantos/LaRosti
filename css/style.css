@@ -55,7 +55,10 @@ nav ul li {
   text-decoration: none;
   color: #cb76be;
   border-radius: 30px;
-  font-size: 9px;
+  font-size: 10px;
+  font-weight: bolder;
+  transition: 0.5s;
+  padding: 5px;
 }
 .navbar-footer a {
   transition: all 0.5s ease-in-out;
@@ -400,7 +403,19 @@ body {
   text-align: left;
 }
 
-.contac-icons ul a {
+.contac-icons {
+  transition: all ease-in-out 0.5s;
+}
+
+ul {
+  transition: all ease-in-out 0.5s;
+}
+ul:hover {
+  transition: all ease-in-out 0.5s;
+  background-color: #191919;
+  color: #59cee6;
+}
+ul a {
   text-decoration: none;
   color: #191919;
 }
@@ -431,7 +446,7 @@ body {
 
 textarea {
   resize: none !important;
-  background-color: rgba(53, 50, 50, 0.9333333333);
+  background-color: rgba(41, 39, 39, 0.9333333333);
 }
 
 .semanal {
@@ -471,19 +486,24 @@ textarea {
 
 .prepa {
   text-align: center;
-  color: #191919;
+  color: rgba(238, 238, 238, 0.9333333333);
+  background-color: rgba(67, 64, 64, 0.8862745098);
 }
 .prepa h3 {
   font-size: 1.5rem;
   font-family: Geneva;
-  color: #191919;
+  color: rgba(238, 238, 238, 0.9333333333);
   font-weight: bold;
   font-style: italic;
 }
 .prepa p {
   font-size: 1rem;
   font-family: sans-serif;
-  color: #191919;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+
+.drowdown a {
+  border-radius: 2px solid #191919;
 }
 
 @media screen and (min-width: 602px) and (max-width: 940px) {
@@ -538,10 +558,17 @@ textarea {
     text-align: center !important;
   }
 }
-@media screen and (max-dith: 600px) {
-  .contaco-icons {
+@media screen and (max-width: 660px) {
+  .contacto-body {
     display: flex;
     flex-direction: column;
+  }
+  .contac-icons {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .btn, .alt-send-button {
+    width: 320px;
   }
 }
 

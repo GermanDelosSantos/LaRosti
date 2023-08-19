@@ -1,0 +1,43 @@
+.recipe-title{
+	text-align: center;
+	>h2{
+	@include font (2.5rem,sans-serif,#191919)
+	}
+	>h3{
+		@include font (2rem,Geneva,$color_1)
+	}
+}
+.ingredientes{
+	text-align: center;
+	>ul{
+		@include font (1rem,italic,$color_1);
+		list-style: none;
+		
+}
+}
+.carousel-inner {
+	img {
+		height: 300px;
+		width: 100%;
+		object-fit: cover;
+		opacity: 90%;
+	}
+}
+.prepa{
+	text-align: center;
+	color: $color_2;
+	background-color: $background-color_10;
+	h3{
+		@include font (1.5rem,Geneva,$color_2);
+		font-weight: bold;
+		font-style: italic;
+	}
+	p{
+		@include font (1rem,sans-serif,$color_2);
+	}
+}
+.drowdown{
+	a{
+		border-radius: 2px solid $color_3;
+}
+}

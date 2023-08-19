@@ -1,37 +1,66 @@
-.recipe-title{
-	text-align: center;
-	>h2{
-	@include font (2.5rem,sans-serif,#191919)
+.titulo-blog {
+	display: flex;
+	justify-content: center;
+	margin: 2.8rem;
+	font-size: 2.5rem;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+.grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+	a {
+		text-decoration: none;
 	}
-	>h3{
-		@include font (2rem,Geneva,$color_1)
+	&:nth-child(odd) {
+		a {
+			color: $color_5;
+		}
+		background-color: $background-color_2;
+		gap: 20px;
+		border: solid 2px #59cee6;
+		p {
+			color: $color_5;
+		}
+		&:hover {
+			background-color: $background-color_1;
+			transition: all 0.2s ease-in-out;
+			>img {
+				width: 40%;
+				transition-duration: 0.5s;
+			}
+			>* {
+				color: $color_3;
+			}
+		}
+	}
+	&:nth-child(even) {
+		a {
+			color: $color_3;
+		}
+		background-color: $background-color_8;
+		gap: 20px;
+		border: solid 2px #191919;
+		&:hover {
+			background-color: $background-color_1;
+			transition: all 0.2s ease-in-out;
+			>img {
+				width: 40%;
+				transition-duration: 0.5s;
+			}
+			>* {
+				color: $color_3;
+			}
+		}
 	}
 }
-.ingredientes{
-	text-align: center;
-	>ul{
-		@include font (1rem,italic,$color_1);
-		list-style: none;
-		
-}
-}
-.carousel-inner {
-	img {
-		height: 300px;
-		width: 100%;
-		object-fit: cover;
-		opacity: 90%;
-	}
-}
-.prepa{
-	text-align: center;
-	color: $color_3;
-	h3{
-		@include font (1.5rem,Geneva,$color_3);
-		font-weight: bold;
-		font-style: italic;
-	}
-	p{
-		@include font (1rem,sans-serif,$color_3);
-	}
+.blog-img {
+	width: 30%;
+	aspect-ratio: 3/2;
+	object-fit: cover;
 }

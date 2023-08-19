@@ -56,10 +56,17 @@
     }
 
 }
-@media screen and (max-dith:600px){
-    .contaco-icons{
+@media screen and (max-width:660px){
+    .contacto-body{
         display: flex;
         flex-direction: column;
+    }
+    .contac-icons{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .btn,.alt-send-button{
+        width: 320px;
     }
 
 }

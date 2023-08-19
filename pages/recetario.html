@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recetario</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../images/rosti.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
+    <title>Recetario</title>
 </head>
+
 <body>
-    
     <header>
         <nav>
             <ul>
@@ -18,14 +19,13 @@
                 <li><a href="contacto.html" class="nav-list">Contactos</a> </li>
                 <li><a href="menu.html" class="nav-list">Menu</a> </li>
                 <li><a href="../index.html#footer" class="nav-list">Footer</a> </li>
-                <li><a href="blog.html" class="nav-list">Blog</a> </li>
                 <li><a href="recetario.html" class="nav-list">Recetario</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                    Recetas
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="../pages/recetario.html">receta 1</a></li>
+                        <li><a class="dropdown-item" href="../pages/receta1.html">receta 1</a></li>
                         <li><a class="dropdown-item" href="../pages/recetas/receta2.html">receta 2</a></li>
                         <li><a class="dropdown-item" href="../pages/recetas/receta3.html">receta 3</a></li>
                         <li><a class="dropdown-item" href="../pages/recetas/receta4.html">receta 4</a></li>
@@ -36,135 +36,103 @@
                     </ul>
                 </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="recipe-title">
-            <h1>Receta1</h1>
-            <h3>Lorem ipsum dolor sit.</h3>
-        </section>
-
-        <div id="carouselExampleCaptions" class="carousel slide carousel-img">
-            <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../images/image.png.avif" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5 class="c1">Ensalada de Cabutia</h5>
-                <p class="c1">Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../images/photo.avif" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5 class="c2">Ricota ¡Kemada!</h5>
-                <p class="c2">Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../images/imagen.avif" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                <h5 class="c3">Coliflower Rostisado</h5>
-                <p class="c3">Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
-        <section class="ingredientes">
-            <h2>Ingredientes</h2>
-            <ul>
-                <li>Harina 150gr</li>
-                <li>Aceite 4cdas</li>
-                <li>Queso 200gr</li>
-                <li>Leche 100ml</li>
-                <li>Manteca 50gr</li>
-                <li>Huevos 4</li>
             </ul>
+        </nav>
+
+
+
+
+
+
+    </header>
+
+
+
+
+
+    <main>
+        <div class="titulo-blog">
+            <h2>Recetario</h2>
+        </div>
+        <section class="grid-container">
+            <div class="grid">
+                <img src="../images/imagen.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta1"><h2>Receta1</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid">
+                <img src="../images/image.png.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta2"><h2>Receta2</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid">
+                <img src="../images/image.png.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta3"><h2>Receta3</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid">
+                <img src="../images/image.png.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta4"><h2>Receta4</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid">
+                <img src="../images/image.png.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta5"><h2>Receta5</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid">
+                <img src="../images/image.png.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta6"><h2>Receta6</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid">
+                <img src="../images/image.png.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta7"><h2>Receta7</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="grid">
+                <img src="../images/image.png.avif" alt="img-card-recetario" class="blog-img">
+                <a href="recetario.html#receta7"><h2>Receta8</h2></a>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </section>
-
-        <section class="prepa">
-            <h2>Preparacion</h2>
-            <h3>Paso 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime illo delectus quam cumque recusandae. Sint reprehenderit recusandae vero provident?</p>
-            
-            <h3>Paso 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime illo delectus quam cumque recusandae. Sint reprehenderit recusandae vero provident?</p>
-            
-            <h3>Paso 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime illo delectus quam cumque recusandae. Sint reprehenderit recusandae vero provident?</p>
-            
-            <h3>Paso 4</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime illo delectus quam cumque recusandae. Sint reprehenderit recusandae vero provident?</p>
-            
-            <h3>Paso 5</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime illo delectus quam cumque recusandae. Sint reprehenderit recusandae vero provident?</p>
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 
     </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
-
-
-
-
-
-
     <footer id="footer" class="py-3 text-center">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam voluptate temporibus aspernatur eum aliquid blanditiis enim, sapiente ad nulla.</p>
 
@@ -173,11 +141,11 @@
         <li><a href="menu.html" class="nav-link px-2">Menu</a> </li>
         <li><a href="../index.html" class="nav-link px-2">Inicio</a> </li>
         <li><a href="../index.html#footer" class="nav-link px-2">Footer</a> </li>
-        <li><a href="blog.html" class="nav-link px-2">Blog</a></li>
         <li><a href="recetario.html" class="nav-link px-2">Recetario</a></li>
     </ul>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -23,13 +23,21 @@
 	}
 }
 .contac-icons {
+	transition: all ease-in-out 0.5s;
+	}
 	ul {
+		transition: all ease-in-out 0.5s;
+		&:hover{
+			transition: all ease-in-out 0.5s;
+			background-color: #191919;
+			color: $color_5;
+			}
 		a {
 			text-decoration: none;
 			color: $color_3;
+
 		}
 	}
-}
 .send-button {
 	margin-top: 15px;
 	height: 34px;

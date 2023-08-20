@@ -46,6 +46,8 @@
 			margin: 20px;
 			height: 15%;
 			text-align: center;
+			background-color: $background-color_9;
+			color: $color_9;
 		}
 		a {
 			text-decoration: none;
@@ -63,6 +65,8 @@
 	p {
 		text-align: center;
 		height: 20%;
+		background-color: $background-color_9;
+		color: $color_9;
 	}
 }
 .inicio {
@@ -100,7 +104,7 @@
 .btn {
 	background-color: $background-color_5;
 	border: 2px solid #191919;
-	color: $color_3;
+	color: $color_2;
 }
 .boton {
 	transition: all 0.8s ease-in-out;
@@ -110,4 +114,8 @@
 		border: 2px solid #b91f1f;
 		width: 20%;
 	}
+}
+.card-body{
+	background-color: $background-color_9;
+	color: $color_9;
 }

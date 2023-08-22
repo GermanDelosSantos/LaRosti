@@ -345,9 +345,14 @@ body {
 }
 .grid:nth-child(odd) a {
   color: #59cee6;
+  width: 33%;
 }
 .grid:nth-child(odd) p {
   color: #59cee6;
+  width: 33%;
+}
+.grid:nth-child(odd) img {
+  width: 33%;
 }
 .grid:nth-child(odd):hover {
   background-color: rgba(238, 238, 238, 0.9333333333);
@@ -367,6 +372,13 @@ body {
 }
 .grid:nth-child(even) a {
   color: #191919;
+  width: 33%;
+}
+.grid:nth-child(even) p {
+  width: 33%;
+}
+.grid:nth-child(even) img {
+  width: 33%;
 }
 .grid:nth-child(even):hover {
   background-color: rgba(238, 238, 238, 0.9333333333);

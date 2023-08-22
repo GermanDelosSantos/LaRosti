@@ -20,12 +20,17 @@
 	&:nth-child(odd) {
 		a {
 			color: $color_5;
+			width: 33%;
 		}
 		background-color: $background-color_2;
 		gap: 20px;
 		border: solid 2px #59cee6;
 		p {
 			color: $color_5;
+			width: 33%;
+		}
+		img {
+			width: 33%;
 		}
 		&:hover {
 			background-color: $background-color_1;
@@ -40,12 +45,19 @@
 		}
 	}
 	&:nth-child(even) {
-		a {
-			color: $color_3;
-		}
 		background-color: $background-color_8;
 		gap: 20px;
 		border: solid 2px #191919;
+		a {
+			color: $color_3;
+			width: 33%;
+		}
+		p {
+			width: 33%;
+		}
+		img {
+			width: 33%;
+		}
 		&:hover {
 			background-color: $background-color_1;
 			transition: all 0.2s ease-in-out;

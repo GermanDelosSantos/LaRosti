@@ -49,6 +49,7 @@ nav ul li {
 #footer {
   background-color: rgba(44, 43, 43, 0.8862745098);
   color: #59ceee;
+  margin-top: 2.5rem;
 }
 
 .navbar-footer > li {
@@ -126,7 +127,6 @@ body {
 .index > article h2 {
   padding: 20px;
   margin: 20px;
-  height: 15%;
   text-align: center;
   background-color: rgba(44, 43, 43, 0.8862745098);
   color: #59ceee;
@@ -145,7 +145,6 @@ body {
 }
 .index p {
   text-align: center;
-  height: 20%;
   background-color: rgba(44, 43, 43, 0.8862745098);
   color: #59ceee;
 }
@@ -161,7 +160,7 @@ body {
 
 .img-fluid {
   width: 100%;
-  height: 10rem;
+  height: 9rem;
   object-fit: cover;
   border: 2px solid #b91f1f;
 }
@@ -192,12 +191,12 @@ body {
 
 .boton {
   transition: all 0.8s ease-in-out;
+  width: 100px;
 }
 .boton:hover {
   background-color: #191919;
   color: rgba(238, 238, 238, 0.9333333333);
   border: 2px solid #b91f1f;
-  width: 20%;
 }
 
 .card-body {
@@ -388,7 +387,7 @@ body {
 }
 
 .contact-title {
-  margin: 1.6rem;
+  margin-block: 1.6rem;
 }
 
 /**.contacto-body {
@@ -415,16 +414,18 @@ body {
 .contac-icons {
   transition: all ease-in-out 0.5s;
 }
-
-ul {
+.contac-icons ul {
   transition: all ease-in-out 0.5s;
 }
-ul:hover {
+.contac-icons ul:hover {
   transition: all ease-in-out 0.5s;
   background-color: #191919;
   color: #59cee6;
 }
-ul a {
+.contac-icons ul:hover a {
+  color: #59cee6;
+}
+.contac-icons ul a {
   text-decoration: none;
   color: #191919;
 }

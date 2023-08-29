@@ -259,7 +259,7 @@ body {
   text-align: center;
   text-decoration: none;
 }
-.menu-titulo p {
+.menu-titulo li {
   margin-top: 5px;
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -324,8 +324,8 @@ body {
 .menu-carne > article h2 {
   padding: 20px;
   margin: 20px;
-  height: 15%;
   color: #59cee6;
+  height: 20%;
   text-align: center;
   background-color: rgba(67, 64, 64, 0.8862745098);
 }

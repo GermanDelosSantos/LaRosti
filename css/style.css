@@ -214,6 +214,7 @@ body {
   background-color: #b91f1f;
   border: 2px solid #191919;
   color: rgba(238, 238, 238, 0.9333333333);
+  width: 25%;
 }
 
 .boton {
@@ -622,7 +623,7 @@ textarea {
     text-align: center;
   }
   .btn, .alt-send-button {
-    width: 320px;
+    width: 100px;
   }
 }
 

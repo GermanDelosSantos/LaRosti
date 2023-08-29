@@ -1,10 +1,11 @@
-
+.bg-body-tertiary{
+	opacity: 0.8;
+}
 .nav-list {
 	font-family: $font-family_1;
 	font-weight: bolder;
-	font-size: 10px;
 	color: $color_1;
-	display: inline;
+	font-size: 1.3rem;
 	text-decoration: none;
 	padding: 5px;
 	transition: 1s;
@@ -15,6 +16,25 @@
 		border-radius: 30px;
 		padding: 5px;
 	}
+}
+.nav-link{
+	font-family: $font-family_1;
+	font-weight: bolder;
+	color: $color_1;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_2;
+		border: 1px solid #0f0e0e;
+		border-radius: 30px;
+		padding: 5px;
+
+}
+}
+.dropdown-menu{
+	opacity: 100%;
 }
 nav {
 	ul {

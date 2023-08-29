@@ -1,49 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/rosti.jpg" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>LaRosti</title>
+    <!-- seo tags -->
+    <!-- Primary Meta Tags -->
+<title>LaRosti</title>
+<meta name="title" content="LaRosti" />
+<meta name="description" content="Comida rápida al paso sin perder el estilo grumete que nos caracteriza " />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://la-rosticeria.vercel.app/index.html" />
+<meta property="og:title" content="LaRosti" />
+<meta property="og:description" content="Comida rápida al paso sin perder el estilo grumete que nos caracteriza " />
+<meta property="og:image" src="images/rosti.jpg" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://la-rosticeria.vercel.app/index.html" />
+<meta property="twitter:title" content="LaRosti" />
+<meta property="twitter:description" content="Comida rápida al paso sin perder el estilo grumete que nos caracteriza " />
+<meta property="twitter:image" src="images/rosti.jpg" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
+
+    <!-- link al booststrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- link al css -->
+        <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
 
     <header>
-        <nav class="nav-bar">
-            <ul class="nav-bar xs sm md">
-                <li><a href="index.html" tabindex="0"><img src="images/rosti.jpg" class="nav-logo" alt="img-logo"></a> </li>
-                <li><a href="pages/contacto.html" class="nav-list" tabindex="0">Contactos</a> </li>
-                <li><a href="pages/menu.html" class="nav-list" tabindex="0">Menu</a> </li>
-                <li><a href="#footer" class="nav-list" tabindex="0">Footer</a> </li>
-                <li><a href="pages/recetario.html" class="nav-list" tabindex="0">Recetario</a></li>
-            </ul>
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-list" href="index.html">La Roti
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-list" aria-current="page" href="pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-list" href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-list" href="pages/recetario.html">Recetario</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         <section class="titulo"
             <article>
-                <h1>La Rosticeria</h1>
+            <h1>La Rosticeria</h1>
             </article>
         </section>
-        
+
 
     </header>
 
-<!-- contenido principal del sitio web -->
     <main>
         <section class="titulo">
             <article>
-                <p class="text-center">En nuestro local podes pasar y llevarte algo de nuestra variada vitrina o nuesrto menu diario</p>
+                <p class="text-center">En nuestro local podes pasar y llevarte algo de nuestra variada vitrina o nuesrto
+                    menu diario</p>
             </article>
+            <!-- Cards para el incio -->
         </section>
         <section class="index">
-            <article class="index-item">
-                <img src="images/croquetas.jpeg" alt="img-card-index" class="index-img">
-                <h2>Croquetas</h2>
-                <p>Nuestras croquetas cremosas estilo gallegas y arancinnis</p>
+            <article>
+                <img src="images/tablafria.jpeg" alt="img-card-index" class="index-img">
+                <h2>Tablas Frias</h2>
+                <p>Nuestras tablas frias las podes pedir para tus eventos en casa</p>
                 <a href="">Ver Mas</a>
             </article>
 
@@ -64,43 +105,47 @@
         </section>
 
 
-<!-- card horizontal bs -->
-<div class="card mb-3 card-ho xs sm md">
-    <div class="row g-0">
-        <div class="col-md-4">
-            <img src="images/sandwichpollo.jpeg" class="img-fluid rounded-start" alt="...">
-            <p class="xs sm md">10% Off por la App</p>
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-            <h5 class="card-title text-center">Sandwich de Focaccia</h5>
-            <p class="card-text text-center">Sandwich de focaccia con milanesas de peceto, aderezo de mostaza antigua y criolla</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn btn-primary boton" type="button">Ver Mas</button>
+        <!-- card horizontal bs -->
+        <div class="card mb-3 card-ho xs sm md">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/sandwichpollo.jpeg" class="img-fluid rounded-start" alt="...">
+                    <p class="xs sm md">10% Off por la App</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Sandwich de Focaccia</h5>
+                        <p class="card-text text-center">Sandwich de focaccia con milanesas de peceto, aderezo de
+                            mostaza antigua y criolla</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary boton" type="button">Ver Mas</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
-</div>
     </main>
-    
+
     <footer id="footer" class="py-3">
-        <p class="text-center">Gracias por elegirnos como tu opcion para todas las comidas</p>  
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3 navbar-footer">
-        <li><a href="pages/contacto.html" class="nav-link px-2">Contacto</a></li>
-        <li><a href="pages/menu.html" class="nav-link px-2">Menu</a> </li>
-        <li><a href="index.html" class="nav-link px-2">Inicio</a> </li>
-        <li><a href="index.html#footer" class="nav-link px-2">Footer</a> </li>
-        <li><a href="pages/recetario.html" class="nav-link px-2">Recetario</a></li>
-    </ul>
+        <p class="text-center">Gracias por elegirnos como tu opcion para todas las comidas</p>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 navbar-footer">
+            <li><a href="pages/contacto.html" class="nav-link px-2">Contacto</a></li>
+            <li><a href="pages/menu.html" class="nav-link px-2">Menu</a> </li>
+            <li><a href="index.html" class="nav-link px-2">Inicio</a> </li>
+            <li><a href="index.html#footer" class="nav-link px-2">Footer</a> </li>
+            <li><a href="pages/recetario.html" class="nav-link px-2">Recetario</a></li>
+        </ul>
     </footer>
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 
 
-    
+
 </body>
+
 </html>

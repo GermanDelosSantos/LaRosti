@@ -10,6 +10,7 @@
 .contacto-body{
 	display: flex;
 	justify-content: space-evenly;
+	flex-direction: row;
 }
 .contac-icons{
 		ul{
@@ -71,5 +72,4 @@ textarea {
 .semanal {
 	background-color: $background-color_3;
 }
-
 

@@ -1,21 +1,23 @@
-#footer {
+footer {
 	background-color: $background-color_9;
 	color: $color_9;
 	margin-top: 2.5rem;
+	font-size: 0.9rem;
+	font-weight: bolder;
 }
 .navbar-footer {
 	>li {
 		text-decoration: none;
 		color: $color_8;
 		border-radius: 30px;
-		font-size: 10px;
-		font-weight: bolder;
 		transition: 0.5s;
 		padding: 5px;
 	}
 	a {
 		transition: all 0.5s ease-in-out;
 		color: $color_5;
+		font-size: 0.8rem;
+		font-weight: bolder;
 		&:hover {
 			transition: all 0.5s ease-in-out;
 			background-color: $background-color_4;

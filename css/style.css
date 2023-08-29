@@ -5,12 +5,15 @@
   box-sizing: border-box;
 }
 
+.bg-body-tertiary {
+  opacity: 0.8;
+}
+
 .nav-list {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 10px;
   color: #b91f1f;
-  display: inline;
+  font-size: 1.3rem;
   text-decoration: none;
   padding: 5px;
   transition: 1s;
@@ -21,6 +24,26 @@
   border: 1px solid #0f0e0e;
   border-radius: 30px;
   padding: 5px;
+}
+
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #b91f1f;
+  text-decoration: none;
+  padding: 5px;
+  transition: 1s;
+}
+.nav-link:hover {
+  background-color: #191919;
+  color: rgba(238, 238, 238, 0.9333333333);
+  border: 1px solid #0f0e0e;
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.dropdown-menu {
+  opacity: 100%;
 }
 
 nav ul {
@@ -46,24 +69,26 @@ nav ul li {
   height: 34px;
 }
 
-#footer {
+footer {
   background-color: rgba(44, 43, 43, 0.8862745098);
   color: #59ceee;
   margin-top: 2.5rem;
+  font-size: 0.9rem;
+  font-weight: bolder;
 }
 
 .navbar-footer > li {
   text-decoration: none;
   color: #cb76be;
   border-radius: 30px;
-  font-size: 10px;
-  font-weight: bolder;
   transition: 0.5s;
   padding: 5px;
 }
 .navbar-footer a {
   transition: all 0.5s ease-in-out;
   color: #59cee6;
+  font-size: 0.8rem;
+  font-weight: bolder;
 }
 .navbar-footer a:hover {
   transition: all 0.5s ease-in-out;
@@ -101,7 +126,7 @@ body {
 .index {
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 30px;
 }
 .index > article {
@@ -323,8 +348,6 @@ body {
 }
 
 .titulo-blog {
-  display: flex;
-  justify-content: center;
   margin: 2.8rem;
   font-size: 2.5rem;
 }
@@ -417,6 +440,7 @@ body {
 .contacto-body {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .contac-icons ul {

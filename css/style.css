@@ -152,6 +152,7 @@ body {
 .index > article h2 {
   padding: 20px;
   margin: 20px;
+  height: 20%;
   text-align: center;
   background-color: rgba(44, 43, 43, 0.8862745098);
   color: #59ceee;
@@ -170,6 +171,7 @@ body {
 }
 .index p {
   text-align: center;
+  height: 20%;
   background-color: rgba(44, 43, 43, 0.8862745098);
   color: #59ceee;
 }

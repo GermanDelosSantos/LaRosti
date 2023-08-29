@@ -12,6 +12,7 @@
 	align-items: center;
 	justify-content: center;
 	transition: 0.5s;
+	height: 180px;
 	a {
 		text-decoration: none;
 	}
@@ -73,4 +74,8 @@
 	width: 30%;
 	aspect-ratio: 3/2;
 	object-fit: cover;
+}
+.bs-opacity{
+	opacity: 100%;
+	background-color: $background-color_1;
 }

@@ -1,16 +1,13 @@
 
 .tablas-main {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "left left right right";
-    padding: 20px;
-}
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 
+}
 .hero__left {
-    grid-area: left;
     @include flex(column, center, 50px);
-    width: 90%;
+    width: 45%;
     background-color: $background-color_9;
 
     h1 {
@@ -63,9 +60,7 @@
 
 /* hero right */
 .hero__right {
-    grid-area: right;
-    position: relative;
-
+    width: 45%;
     img {
         width: 100%;
         min-height: 800px;

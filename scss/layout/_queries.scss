@@ -1,4 +1,4 @@
-// Index
+// Index y menu
 @media screen and (min-width: 602px) and (max-width: 940px) {
     .index, .menu-carne{
         display: flex;
@@ -7,11 +7,11 @@
 }
 
 @media screen and (max-width:600px) {
-    .index{
+    .index, .menu-carne{
         display: flex;
         flex-direction: column;
     }
-    .index article{
+    .index article, .menu-carne article{
         display: flex;
         justify-content: center;
         width: 100%;
@@ -111,9 +111,10 @@
 @media only screen and (max-width: 660px) {
 
     .tablas-main {
-        display: flex;
         flex-direction: column;
-        gap: 50px;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
     }
 
         .hero__right img {

@@ -1,3 +1,4 @@
+// carousel que no tiene que estar aca si no en su propia pagina 
 .carousel-inner {
 	img {
 		max-height: 300px;
@@ -17,6 +18,7 @@
 	color: $color_5;
 	background-color: $background-color_10
 }
+// titulo
 .menu-titulo {
 	h1 {
 		margin-top: 20px;
@@ -27,22 +29,18 @@
 		text-align: center;
 		text-decoration: none;
 	}
-	li {
-		margin-top: 5px;
-		font-size: 15px;
-		font-family: $font-family_2;
-		text-align: center;
-		text-decoration: dashed;
-		color: $color_1;
-	}
 }
+// hover titulo
 .opc-car {
-	transition: all 0.5s ease-in-out;
+	h2{
+		font-size: 2.5rem;
+		text-align: center;
+		transition: letter-spacing 0.5s;
+	}
+
 	&:hover {
 		h2 {  
-			transition: all 0.5s ease-in-out;
-			letter-spacing: 10px;
-			cursor: pointer;
+			letter-spacing: 20px;
 		}
 	}
 }
@@ -52,6 +50,7 @@
 		transform: scale(1.10);
 	}
 }
+// cards menu
 .menu-carne {
 	a {
 		transition: all 0.5s ease-in-out;

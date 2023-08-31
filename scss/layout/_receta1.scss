@@ -1,3 +1,4 @@
+// titulo
 .recipe-title{
 	text-align: center;
 	>h2{
@@ -7,6 +8,7 @@
 		@include font (2rem,Geneva,$color_1)
 	}
 }
+// ingredientes
 .ingredientes{
 	text-align: center;
 	>ul{
@@ -15,6 +17,7 @@
 		
 }
 }
+// carousel
 .carousel-inner {
 	img {
 		height: 300px;
@@ -23,6 +26,7 @@
 		opacity: 90%;
 	}
 }
+// prepa
 .prepa{
 	text-align: center;
 	color: $color_2;

@@ -111,12 +111,12 @@
 	width: 25%;
 }
 .boton {
-	transition: all 0.8s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	width: 100px;
 	&:hover {
 		background-color: $background-color_2;
 		color: $color_2;
-		border: 2px solid #b91f1f;
+		border: 2px solid $color_1;
 	}
 }
 .card-body{

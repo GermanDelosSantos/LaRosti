@@ -33,6 +33,7 @@
   text-decoration: none;
   padding: 5px;
   transition: 1s;
+  max-height: 2.5rem;
 }
 .nav-link:hover {
   background-color: #191919;
@@ -83,6 +84,7 @@ footer {
   border-radius: 30px;
   transition: 0.5s;
   padding: 5px;
+  max-height: 1.8rem;
 }
 .navbar-footer a {
   transition: all 0.5s ease-in-out;
@@ -219,7 +221,7 @@ body {
 }
 
 .boton {
-  transition: all 0.8s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 100px;
 }
 .boton:hover {
@@ -439,7 +441,7 @@ body {
 
 .contacto-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -472,8 +474,8 @@ body {
 .contac-icons ul:hover {
   transition: all ease-in-out 0.5s;
   background-color: rgba(67, 64, 64, 0.8862745098);
-  height: 8rem;
   color: #59cee6;
+  height: 11rem;
 }
 .contac-icons ul:hover a {
   color: #59cee6;

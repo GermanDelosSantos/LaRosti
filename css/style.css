@@ -224,9 +224,10 @@ body {
 }
 
 .carousel-inner img {
-  max-height: 300px;
+  min-height: 500px;
   object-fit: cover;
   opacity: 10%;
+  width: 80%;
 }
 
 .c1 {
@@ -447,7 +448,8 @@ body {
 }
 .contac-icons ul:hover {
   transition: all ease-in-out 0.5s;
-  background-color: #191919;
+  background-color: rgba(67, 64, 64, 0.8862745098);
+  height: 8rem;
   color: #59cee6;
 }
 .contac-icons ul:hover a {

@@ -24,7 +24,7 @@
 			color: $color_5;
 			width: 33%;
 		}
-		background-color: $background-color_2;
+		background-color: $background-color_9;
 		gap: 20px;
 		border: solid 2px #59cee6;
 		p {
@@ -39,6 +39,7 @@
 			transition: all 0.2s ease-in-out;
 			>img {
 				width: 40%;
+				height: 100%;
 				transition-duration: 0.5s;
 			}
 			>* {
@@ -65,6 +66,7 @@
 			transition: all 0.2s ease-in-out;
 			>img {
 				width: 40%;
+				height: 100%;
 				transition-duration: 0.5s;
 			}
 			>* {

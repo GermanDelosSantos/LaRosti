@@ -168,6 +168,15 @@ body {
   background-color: #59cee6;
   box-shadow: 5px 5px 5px 0 #191919;
   float: bottom;
+  transition: all 0.3s ease-in-out;
+}
+.index > article a:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #191919;
+  border-radius: 30%;
+  border: 2px solid #59cee6;
+  box-shadow: none;
+  color: #59cee6;
 }
 .index p {
   text-align: center;
@@ -193,9 +202,10 @@ body {
 }
 .col-md-4 > p {
   position: absolute;
-  color: #ef2409;
-  border: solid 3px #b91f1f;
+  color: #59cee6;
+  border: solid 3px #59cee6;
   background-color: #191919;
+  padding: 3px;
   opacity: 75%;
   top: 0%;
   left: 0%;
@@ -278,13 +288,14 @@ body {
   gap: 30px;
 }
 .menu-carne a {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .menu-carne a:hover {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   background-color: #191919;
-  border-radius: 10%;
-  border: 2px solid #04798e;
+  color: #59cee6;
+  border-radius: 30%;
+  border: 2px solid #59cee6;
   box-shadow: none;
 }
 .menu-carne > article {
@@ -356,7 +367,7 @@ body {
   text-decoration: none;
 }
 .grid:nth-child(odd) {
-  background-color: #191919;
+  background-color: rgba(44, 43, 43, 0.8862745098);
   gap: 20px;
   border: solid 2px #59cee6;
 }
@@ -377,6 +388,7 @@ body {
 }
 .grid:nth-child(odd):hover > img {
   width: 40%;
+  height: 100%;
   transition-duration: 0.5s;
 }
 .grid:nth-child(odd):hover > * {
@@ -403,6 +415,7 @@ body {
 }
 .grid:nth-child(even):hover > img {
   width: 40%;
+  height: 100%;
   transition-duration: 0.5s;
 }
 .grid:nth-child(even):hover > * {
@@ -424,10 +437,20 @@ body {
   margin-block: 1.6rem;
 }
 
-.contacto-body {
+.contacto-main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-label {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  border: 2px solid #191919;
+  padding: 10px;
+  background-color: rgba(67, 64, 64, 0.8862745098);
 }
 
 .contac-icons ul {
@@ -689,7 +712,7 @@ textarea {
   }
 }
 @media screen and (max-width: 660px) {
-  .contacto-body {
+  .contacto-main {
     display: flex;
     flex-direction: column;
   }
@@ -698,7 +721,7 @@ textarea {
     text-align: center;
   }
   .btn, .alt-send-button {
-    width: 100px;
+    width: 211px;
   }
 }
 @media only screen and (max-width: 400px) {

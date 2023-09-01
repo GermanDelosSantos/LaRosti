@@ -2,10 +2,17 @@
 .contact-title {
 	margin-block: 1.6rem;
 }
-.contacto-body{
-	display: flex;
-	justify-content: space-evenly;
-	flex-direction: row;
+.contacto-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+// contac label
+.contact-label{
+	@include flex(row, center, 50px);
+	border: 2px solid $color_3;
+	padding: 10px;
+	background-color: $background-color_10;
 }
 // iconos right
 .contac-icons{

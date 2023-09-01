@@ -1,9 +1,10 @@
 // carousel que no tiene que estar aca si no en su propia pagina 
 .carousel-inner {
 	img {
-		max-height: 300px;
+		min-height: 500px;
 		object-fit: cover;
 		opacity: 10%;
+		width: 80%;
 	}
 }
 .c1 {

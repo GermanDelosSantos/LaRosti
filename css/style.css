@@ -426,6 +426,7 @@ body {
 
 .blog-img {
   width: 30%;
+  height: 100%;
   aspect-ratio: 3/2;
   object-fit: cover;
 }
